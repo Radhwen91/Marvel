@@ -24,7 +24,7 @@ const Charachter = ({charachterData}) => {
                 <Row gutter={[32, 0]}>
                     {charachterData.C && charachterData.C.map((M) => (
                         <Col span={4}>
-                            <Card
+                            <Card style={{ borderRadius:"20px"}}
                                 hoverable
                                 title={M.name}
                             >
